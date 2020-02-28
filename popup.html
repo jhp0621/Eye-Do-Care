@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>eye-do-care Popup</title>
+    <style>
+      p {font-family: fantasy}
+      .version {font-family: cursive}
+      button {color: rgb(16, 10, 41); background-color: pink}
+    </style>
+  </head>
+  <body>
+    <button id="sampleAlarm">Sample</button>
+    <header>
+      <img src='./img/eye-logo.png' id="eyeImage">
+      <h3>eye-do-care <span class="version">(v 1.0.0)</span></h3>
+    </header>
+    <h4>Click the button below to set a reminder: you will be notified every 20 minutes</h4>
+    <button id="startNow">Start Now!</button>
+    <hr>
+    <h4>Change reminder time (recommended: 20 min) </h4>
+    <button id="10min" value="10">10 min </button>
+    <button id="20min" value="20">20 min </button>
+    <button id="30min" value="30">30 min </button>
+    <button id="40min" value="40">40 min </button>
+    <hr>
+    <p>Thanks for downloading! -your eyes</p>
+    <hr>
+    <hr>
+    <button id="cancelAlarm">Cancel Alarm</button>
+    <script src="popup.js"></script>
+  </body>
+
+</html>
