@@ -1,5 +1,5 @@
-# ReviewWeekProject.eye-do-care
-Chrome extension: eye-do-care (20-20-20 rule)
+# Eye-Do-Care
+Chrome extension
 
 Take care of your eyes!
 
